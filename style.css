@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color:#a09038;
+}
+
+ul {
+    list-style:none;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-weight:700;
+}
+
+body {
+    background: url(./pexels-shay-wood-574115.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /*background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);*/
+}
+
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 60px;
+}
+
+.container .name h5 {
+    font-size: 40px;
+}
